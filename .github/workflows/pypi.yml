@@ -13,7 +13,7 @@ jobs:
   linux-build:
     strategy:
       matrix:
-        pyver: [py310]
+        pyver: [py38]
     runs-on: ubuntu-latest
     env:
       PYTHON_VERSION: ${{ matrix.pyver }}
